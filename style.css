@@ -4,7 +4,6 @@
     border: 2px solid black;
     font-size: 50px;
     cursor: pointer;
-    /* cursor: pointer is used to change the the mouse cursor */
     transition: all 1s linear;
 }
 #cellContainer{
@@ -12,9 +11,6 @@
     grid-template-columns: repeat(3, auto);
     width: 200px;
     margin: auto;
-    /* repeat()  will repeat the code inside the brakets
-    3 means there will be three columns and auto will auto adjusts the grid item(where cells are item)*/
-    /* margin auto will center the div on the window  */
 }
 
 #gameContainer{
